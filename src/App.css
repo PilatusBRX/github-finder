@@ -1,0 +1,175 @@
+.card h3 {
+  color: #575656;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.loading img {
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+.search {
+  width: 100%;
+  margin: 20px 0 10px 0;
+  padding: 0 16px;
+  height: 48px;
+  outline-style: none;
+  background-color: #e4e3e3;
+  border: none;
+  border-left: 3px solid #07b5d3;
+  font-size: 14px;
+}
+
+.btn-search {
+  background-color: #07b5d3;
+  border-radius: 0;
+  border: none;
+  height: 40px;
+}
+
+.btn-search:hover {
+  background-color: #3998dc;
+}
+
+.btn-dark {
+  background: linear-gradient(to right, #3998dc, #07b5d3) !important;
+  border: none;
+  width: 100px;
+}
+
+.btn-light {
+  margin-top: 10px;
+  border: none;
+}
+
+.alert {
+  margin: 24px 0;
+
+}
+
+.alert.alert-danger {
+  background-color: #ce327b;
+  color: #fff;
+}
+
+.alert.alert-danger span {
+  margin-left: 10px;
+}
+
+.navbar {
+  background: linear-gradient(to right, #3998dc, #07b5d3, #08d3c5);
+}
+
+nav {
+  color: #f0ecec;
+}
+
+nav h1 {
+  font-size: 26px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.nav-item {
+  list-style: none;
+}
+
+/**************************************/
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 1;
+  width: 100%;
+  opacity: 0.9;
+  margin-bottom: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+
+.navbar .welcome span {
+  margin-right: 0.6rem;
+}
+
+li {
+  list-style: none;
+}
+
+.card-badges {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.card-badges li {
+  margin: 10px;
+  padding: 2px 4px;
+  color: #fff;
+  background: #3998dc;
+  border-radius: 16px;
+  font-size: 14px;
+}
+
+.repo {
+  padding: 20px;
+}
+
+.repo .card h3 a {
+  color: #4b4d4d;
+  padding-left: 20px;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 55vh;
+}
+
+.not-found h1 {
+  font-size: 48px;
+  color: #4b4d4d;
+}
+
+.not-found p {
+  font-size: 16px;
+  color: #4b4d4d;
+}
+
+/* Mobile Styles */
+@media (max-width: 700px) {
+
+  /* Navbar */
+  .navbar {
+    display: block;
+    text-align: center;
+  }
+
+  .navbar ul {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .card-badges {
+    flex-direction: column;
+  }
+
+}
